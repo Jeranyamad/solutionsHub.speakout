@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Violence and Assault</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/trainers/download.png" rel="icon">
+  <link href="assets/img/trainers/download.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style type="text/css">
+    #bodycontent label { padding-right:100px }
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 55%; 
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+/*Style inputs with type="email", select elements and textareas */
+input[type=email], select, textarea {
+  width: 55%;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: light #teal;
+    color: white;
+    margin: 200 0 10;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+   
+ 
+  }
+
+
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: lightcyan;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+  }
+
+  .button {
+    background-color: light#teal;
+    border: none;
+    color: white;
+    padding:8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+  .button1 {border-radius: 14px;}
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  padding-bottom: 20px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: #E71D36;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #E71D36;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+    </style>
+
+  <!-- =======================================================
+  * Template Name: Mentor - v2.0.0
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+        <a href="index.html" class="logo mr-auto"><img src="assets/img/trainers/download.png" alt="" class="img-fluid"></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+     
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="drop-down" ><a href="">Report a Crime</a>
+            <ul>
+              <li><a href="report_cases.html">Violence,Assault & Stigmatization</a></li>
+              <li class="drop-down"><a href="report_cases.html">Abuse</a>
+                <ul>
+                  <li><a href="report_cases.html">Rape</a></li>
+                  <li><a href="report_cases.html">Gender Based Violence</a></li>
+                </ul>
+              </li>
+            </li>
+            <li class="drop-down"><a href="report_cases.html">Corruption</a>
+                <ul>
+                  <li><a href="report_cases.html">Bribery</a></li>
+                  <li><a href="report_cases.html">Fraud</a></li>
+              </li>
+              </ul>
+              <li><a href="report_cases.html">Cyber Crime</a></li>
+              <li><a href="report_cases.html">Theft</a></li>
+            <li><a href="report_cases.html">Get Justice & Remain Anonymous</a></li>
+        </ul>
+          <li><a href="meet_the_team.html">Meet A Professional</a></li>
+          <li><a href="extra_features.html">Extra Features</a></li>
+          <li><a href="our_partners.html">Our Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        
+        
+      </nav><!-- .nav-menu -->
+
+      <a href="tel:+911" class="get-started-btn">HOTLINE</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main" data-aos="fade-in">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <h2>Feel Free to Report</h2>
+        <p>We want to fight for a clean and safe economy for all of us so if you witnessed a crime and want to let us know below </p>
+        <p>feel free to tell us by filling the form below</p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    
+    <!-- ======= Contact Section ======= -->
+    <div class="container">
+      <div id="bodycontent">
+          <form name="form1" method="post" action="">
+              <fieldset>
+                  <div class="row">
+                      <div class="col-25">
+                      <label for="fname">The place</label>
+                      </div>
+                      <div class="col-75">
+                          <input type="text" placeholder="Your name"name="name"/>
+                      </div>
+                  </div>
+  
+                  <div class="row">
+                      <div class="col-25">
+                  <label for="email">Date and time</label>
+                      </div>
+                      <div class="col-75">
+                  <input type="email" placeholder="Your email"name="email"/>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-25">
+                          <label for="review">Crime Description</label>
+                      </div>
+                      <div class="col-75">   
+                          <textarea id="review" name="review" placeholder="Your Message..." style="height:200px"></textarea>
+                      </div>
+                  </div>
+                  <!-- Surround the select box within a "custom-select" DIV element.
+Remember to set the width: -->
+<div class="custom-select" style="width:200px;">
+  <select>
+    <option value="0">Select crime:</option>
+    <option value="1">Rape</option>
+    <option value="2">Abuse</option>
+    <option value="3">stigmatization</option>
+    <option value="4">violence</option>
+    <option value="5">theft</option>
+    <option value="6">cybercrime</option>
+    <option value="7">GBV</option>
+    <option value="8">corruption</option>
+    <option value="9">Bribe</option>
+  </select>
+</div>
+                  <div class="row">
+                    <form action="/action_page.php">
+                      <input type="file" id="myFile" name="filename">
+                      <button style="border: none; border-radius: 10px; margin-top: 35px; width: 130px; height: 40px; background-color: #E71D36;"><a href="#" style="text-decoration: none; color: white;">SUBMIT</a></button>
+                    </form>
+                
+                        
+                  </div>
+                  
+      </fieldset>
+    </form>
+   </div>
+  </div> 
+<!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+   
+
+
+
+
+      <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Mentor</h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>HERE FROM US</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
